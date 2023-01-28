@@ -1,6 +1,6 @@
 # night time
 
-![Image of video game. Image of a dark blue room with a computer.](https://github.com/paper-clips/night-time/blob/master/Assets/Game%20Images/room-image.png?raw=true)
+![Image of video game. Image of a dark blue room with a computer.](https://github.com/paper-clips/night-time/blob/main/Game%20Images/room-image.png?raw=true)
 
 Details: <br>
 - Art made using Aseprite <br>
