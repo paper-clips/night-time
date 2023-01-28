@@ -15,3 +15,6 @@ Features: <br>
 - Animated flower <br>
 - Animated stars on the windows <br>
 - _More to be included..._ <br>
+
+Import sources: <br>
+- Thaleah_PixelFont: https://assetstore.unity.com/packages/2d/fonts/free-pixel-font-thaleah-140059
