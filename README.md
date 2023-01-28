@@ -3,9 +3,9 @@
 ![Image of video game. Image of a dark blue room with a computer.](https://github.com/paper-clips/night-time/blob/main/Game%20Images/room-image.png?raw=true)
 
 Details: <br>
-- Art made using Aseprite <br>
+- Art made using Aseprite (in Aseprite Files and Sprites folders) <br>
 - Video game made using Unity <br>
-- Sound effects and music used from pixabay <br>
+- Sound effects and music used from pixabay (in Sounds folder + credits in Scripts) <br>
 
 Features: <br>
 - Drawers opening and closing when clicking on them, also includes sound effects <br>
