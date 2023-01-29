@@ -5,7 +5,7 @@
 Details: <br>
 - Art made using Aseprite (in Aseprite Files and Sprites folders) <br>
 - Video game made using Unity <br>
-- Sound effects and music used from pixabay (in Sounds folder + credits in Scripts) <br>
+- Sound effects and music used from pixabay (in Sounds folder) <br>
 
 Features: <br>
 - Drawers opening and closing when clicking on them, also includes sound effects <br>
@@ -19,3 +19,4 @@ Features: <br>
 Import sources: <br>
 - Thaleah_PixelFont: https://assetstore.unity.com/packages/2d/fonts/free-pixel-font-thaleah-140059 <br>
 - Night ambiance sound: https://pixabay.com/sound-effects/night-ambience-17064/
+- _(Other sounds credited in the Scripts)_
