@@ -27,6 +27,7 @@ public class chair_script : MonoBehaviour
     GameObject[] lever;
     int chairNum;
     Vector3 leverPos;
+    bool isDialogueBoxShowing;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,7 @@ public class chair_script : MonoBehaviour
         currMouseY = 0f;
         isLeverHeld = false;
         wasLeverClicked = false;
+        isDialogueBoxShowing = false;
 
         // Store each chair frame
         chair = new GameObject[11];
@@ -61,6 +63,13 @@ public class chair_script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // If user clicks anywhere, hide dialogue box
+        if (isDialogueBoxShowing && Input.GetMouseButtonDown(0))
+        {
+            HelperFunctions.updateDialogueBox("", false);
+            isDialogueBoxShowing = false;
+        }
+
         // User clicked on chair lever and is holding mouse down
         if (didUserClick2DObject("chair-lever-default", cam))
         {
@@ -124,6 +133,19 @@ public class chair_script : MonoBehaviour
                 chairLeverLowered.transform.localPosition = new Vector3(0, leverPos.y, 0);
 
                 isLeverHeld = false;
+            }
+
+            // Can't raise chair anymore
+            if (chairNum == 10 && Input.mousePosition.y > currMouseY)
+            {
+                isDialogueBoxShowing = true;
+                HelperFunctions.updateDialogueBox("Chair cannot be raised anymore", true);
+            }
+            // Can't lower chair anymore
+            else if (chairNum == 0 && Input.mousePosition.y < currMouseY)
+            {
+                isDialogueBoxShowing = true;
+                HelperFunctions.updateDialogueBox("Chair cannot be lowered anymore", true);
             }
         }
     }
