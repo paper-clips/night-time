@@ -1,6 +1,6 @@
 # night time
 
-![Image of video game. Image of a dark blue room with a computer.](https://github.com/paper-clips/night-time/blob/main/Game%20Images/room-image.png?raw=true)
+![Image of video game. Image of a dark blue room with a computer](https://github.com/paper-clips/night-time/blob/0ee688b837166fca0c49bb95e887ef75b7097b36/Game%20Images/room-image.png?raw=true)
 
 Details: <br>
 - Art made using Aseprite (in Aseprite Files and Sprites folders)
@@ -14,6 +14,7 @@ Features: <br>
 - Adjustable chair + sound effects
 - Animated flower
 - Animated stars on the windows
+- Animated fairy lights
 - Dialogue box
 - _More to be included..._
 
