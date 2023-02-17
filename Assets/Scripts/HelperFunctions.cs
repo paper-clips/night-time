@@ -69,7 +69,7 @@ public static class HelperFunctions
         return false;
     }
 
-    // Change text of dialogue box
+    // Change text of dialogue box  
     public static void updateDialogueBox(string input, bool isInFrame)
     {
         UnityEngine.UI.Text text = GameObject.Find("Dialogue").GetComponent<dialogue_script>().Text;
