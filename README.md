@@ -18,6 +18,10 @@ Features: <br>
 - Dialogue box
 - _More to be included..._
 
+Tips: <br>
+- Download the Build folder and click on "night time" if you'd like to play the game
+- Hit Escape to quit the game
+
 Imported assets sources: <br>
 - [Thaleah_PixelFont](https://assetstore.unity.com/packages/2d/fonts/free-pixel-font-thaleah-140059)
 - [Night ambiance sound](https://pixabay.com/sound-effects/night-ambience-17064/)
