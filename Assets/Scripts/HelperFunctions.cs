@@ -36,8 +36,14 @@ public static class HelperFunctions
             // User clicked on something
             if (hit.collider != null)
             {
+                // If user clicked on any object
+                if (objectName == "anyObject")
+                {
+                    Debug.Log("User clicked something");
+                    return true;
+                }
                 // If clicked specified object
-                if (hit.collider.gameObject.name == objectName)
+                else if (hit.collider.gameObject.name == objectName)
                 {
                     Debug.Log("User clicked " + hit.transform.name);
                     return true;
@@ -58,8 +64,14 @@ public static class HelperFunctions
             Ray ray = cam.ScreenPointToRay(mousePosition);
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
+                // If user clicked on any object
+                if (objectName == "anyObject")
+                {
+                    Debug.Log("User clicked something");
+                    return true;
+                }
                 // If clicked specified object
-                if (hit.transform.name == objectName)
+                else if (hit.transform.name == objectName)
                 {
                     Debug.Log("User clicked " + hit.transform.name);
                     return true;

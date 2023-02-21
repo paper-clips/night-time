@@ -396,6 +396,8 @@ GameObject:
   m_Component:
   - component: {fileID: 194375349}
   - component: {fileID: 194375350}
+  - component: {fileID: 194375351}
+  - component: {fileID: 194375352}
   m_Layer: 0
   m_Name: Bag
   m_TagString: Untagged
@@ -438,6 +440,57 @@ MonoBehaviour:
   bag_closed: {fileID: 2080644728}
   bagOpenSound: {fileID: 339598321}
   bagCloseSound: {fileID: 321997855}
+--- !u!60 &194375351
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194375348}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.6504795, y: -0.419721}
+      - {x: -0.70996934, y: -0.5099298}
+      - {x: -0.73997664, y: -0.59961945}
+      - {x: -0.74033093, y: -0.65954584}
+      - {x: -0.6897591, y: -0.7130166}
+      - {x: -0.64832395, y: -0.7298814}
+      - {x: -0.56876975, y: -0.7317006}
+      - {x: -0.52062786, y: -0.7139217}
+      - {x: -0.48971048, y: -0.6689335}
+      - {x: -0.4894737, y: -0.5003701}
+      - {x: -0.5003765, y: -0.45846117}
+      - {x: -0.5216525, y: -0.42965022}
+      - {x: -0.55063856, y: -0.43035877}
+      - {x: -0.559253, y: -0.45016694}
+      - {x: -0.6105679, y: -0.41939348}
+--- !u!210 &194375352
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194375348}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
 --- !u!1 &269948051
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,7 +665,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 8591533231565066105, guid: ffb8f62f7a090614b8f2a403d7416c17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1977,6 +2030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 802089919}
   - component: {fileID: 802089918}
+  - component: {fileID: 802089920}
   m_Layer: 0
   m_Name: Room
   m_TagString: Untagged
@@ -2024,6 +2078,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &802089920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802089917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c475537b81c16b44da362f558659d21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420031}
+  plant: {fileID: 278811073}
+  bag: {fileID: 194375348}
+  floor: {fileID: 943843257}
+  table: {fileID: 1388029445}
 --- !u!1 &814912200
 GameObject:
   m_ObjectHideFlags: 0
@@ -3058,7 +3129,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10
   m_Sprite: {fileID: -6421031601284847256, guid: bc4105def2ddebc4ca4b29e4433cb2ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
