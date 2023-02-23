@@ -2085,7 +2085,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802089917}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c475537b81c16b44da362f558659d21d, type: 3}
   m_Name: 
@@ -2104,6 +2104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 814912201}
+  - component: {fileID: 814912202}
   m_Layer: 0
   m_Name: Screen-DISABLED
   m_TagString: Untagged
@@ -2131,6 +2132,26 @@ Transform:
   m_Father: {fileID: 802089919}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &814912202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814912200}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c74c7df05241dc44ba609184ac7ac0ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420031}
+  Drawers: {fileID: 993126066}
+  Screen_closedDrawers: {fileID: 1954141226}
+  Screen_off: {fileID: 1726532453}
+  Screen_0: {fileID: 648858553}
+  Screen_1: {fileID: 875798840}
+  Screen_2: {fileID: 1664145798}
+  Screen_3: {fileID: 1891351792}
 --- !u!1 &821397952
 GameObject:
   m_ObjectHideFlags: 0
