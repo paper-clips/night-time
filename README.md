@@ -21,7 +21,7 @@ Features: <br>
 - _More to be included..._
 
 Tips: <br>
-- Download the BuildWindows folder and click on "night time" if you'd like to play the game
+- Download the BuildWindows folder and click on "night time" if you'd like to play the game on Windows
 - Hit Escape to quit the game
 
 Imported assets sources: <br>
