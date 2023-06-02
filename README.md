@@ -1,6 +1,6 @@
 # night time
 
-![Image of video game. Image of a dark blue room with a computer](Game%20Images/room-image.png)
+![Image of video game. Image of a dark blue room with a computer](GameImages/room-image.png)
 
 <div align="center">
   <h3>Play the game: 
